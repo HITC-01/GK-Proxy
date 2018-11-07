@@ -1,0 +1,41 @@
+{
+  "name": "gk-proxy",
+  "version": "1.0.0",
+  "description": "A repo for the profile proxy. HRSF Front End Capstone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
+  },
+  "keywords": [
+    "proxy",
+    "AWS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HITC-01/GK-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HITC-01/GK-Proxy/issues"
+  },
+  "homepage": "https://github.com/HITC-01/GK-Proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "grunt-aws-s3": "^2.0.0",
+    "http-proxy": "^1.17.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-s3": "^0.2.0-alpha.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6"
+  }
+}
