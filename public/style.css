@@ -1,0 +1,4 @@
+#user, #comment, #viewcomments {
+  display: flex;
+  justify-content: center;
+}
