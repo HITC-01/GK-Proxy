@@ -1,4 +1,57 @@
-#user, #comment, #viewcomments {
-  display: flex;
-  justify-content: center;
+body{
+  margin: 0px;
+}
+.wrapper {
+  background: #f2f2f2;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 960px;
+  background: white;
+  margin: 0 auto;
+}
+
+.nav {
+  display: block;
+  width: 100%;
+}
+
+.player {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.comment {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  grid-column: span 2;
+}
+
+.SCRelated {
+  display: inline-block;
+  width: 100%;
+  margin-top: -115px;
+}
+
+.user {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.viewcomments{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.comment__textBoxCreateComment___BZA4y{
+  width: 63% !important;
 }
